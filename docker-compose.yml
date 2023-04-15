@@ -1,9 +1,0 @@
-version: '3.7'
-services:
-  mongodb:
-    image: mongo:latest
-    container_name: mean-stack-mongo
-    ports:
-      - 27017:20002
-    volumes:
-      - ./data:/data/db
